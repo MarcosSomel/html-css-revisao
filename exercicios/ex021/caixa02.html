@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: lightgray;
+        }
+        header {
+            background-color: white;
+            height: 100px;
+            padding: 10px;
+            margin: 10px auto;
+        }
+        main {
+            background-color: white;
+            margin: 10px auto;
+            padding: 10px;
+        }
+        footer {
+            background-color: black;
+            color: white;
+            padding: 5px;
+            text-align: center;
+        }
+        footer > p {
+            margin: 0px;
+        }
+        article {
+            background-color: lightgray;
+        }
+        nav {
+            margin: 0px;
+            background-color: lightgray;
+            box-shadow: 3px 2px 2px 0px rgba(0, 0, 0, 0.336);
+        }
+        a {
+            margin: 0px;
+            padding: 0px 5px;
+            color: black;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+            background-color: rgb(112, 112, 112);
+            color: white;
+            text-shadow: 1px 1px 1px black;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Noticias sobre o Brasil</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia maiores quidem aut ex officiis corporis natus et doloremque labore blanditiis fugiat, quas sequi. Expedita iste sequi ipsum doloribus nemo debitis!</p>
+                <aside>
+                    <p>Escrito por José Silva</p>
+                </aside>
+            </article>
+            <article>
+
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por Marcos Lemos</p>
+    </footer>
+</body>
+</html>
