@@ -23,7 +23,6 @@ body {
 
 main {
     height: 100vh;
-    background-color: ;
     position: relative;
 }
 
@@ -39,4 +38,11 @@ section#telefone {
     background-repeat: no-repeat;
     background-position: center center;
     
+}
+iframe#tela {
+    width: 214px;
+    height: 378px;
+    position: relative;
+    top: 62px;
+    left: 17px;
 }
